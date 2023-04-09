@@ -1,0 +1,16 @@
+.a1 img,.a2 img, .a3 img, .a4 img {
+    border-radius: 50%;
+}
+
+.a1,.a2,.a3, .a4 {
+    display: flex;
+}
+
+.a1 > div, .a2 > div, .a3 > div, .a4 > div {
+    width: 30%;
+    text-align: center;
+}
+
+.a1 > details, .a2 > details, .a3 > details, .a4 > details {
+    width: 60%;
+}
