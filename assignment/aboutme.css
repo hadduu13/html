@@ -1,7 +1,23 @@
-.a1 img,.a2 img, .a3 img, .a4 img {
+
+.a1 {
+    display: flex;
+}
+
+.a1 > div {
+    width: 30%;
+    text-align: center;
+}
+
+.a1 > details {
+    width: 60%;
+}
+
+.a1 img {
+    width: 60%;
     border-radius: 50%;
 }
 
+/* 
 .a1,.a2,.a3, .a4 {
     display: flex;
 }
@@ -13,4 +29,4 @@
 
 .a1 > details, .a2 > details, .a3 > details, .a4 > details {
     width:60%;
-}
+} */
